@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'bonito';
+    src: url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+}
+
+:root {
+    --principal: #313982;
+    --secundaria: #4C2D81;
+    --terciaria: #265B78;
+    --outro: #BD9835;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.hero {
+    display: flex;
+    flex-direction: row;
+}
+/*Header*/
+
+header.cabecalho {
+    background-color: rgb(255, 255, 255);
+}
+
+/*LOGO DO HEADER*/
+
+img.logo {
+    width: 3em;
+    height: 3em;
+}
+
+/*FUNÇÕES REAIS DO HEADER*/
+nav.nav-bar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+
+/*FUNÇÕES REAIS DA BARRA DE NAVEGAÇÃO*/
+ul.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+
+/*LINKS DA BARRA DE NAVEGAÇÃO*/
+a.link {
+    text-decoration: none;
+    color: var(--principal);
+    font-size: 1.1em;
+}
+
+/*EFEITO DOS LINKS DA BARRA DE NAVEGAÇÃO*/
+a.link:hover {
+    font-size: 1.2em;
+    color: var(--outro);
+    transform: scale(1.05);
+}
+
+aside#esquerda {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+}
